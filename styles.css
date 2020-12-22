@@ -1,0 +1,13 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart {
+  display: none;
+}
+
+.remove-product{
+  color: red;
+  cursor: pointer;
+}

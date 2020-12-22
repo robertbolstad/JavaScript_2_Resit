@@ -91,7 +91,7 @@ function addtoCart() {
 
         // If none additions are added, a text of "none" is displayed instead.
         if (selectedAdditions.length === 0) {
-            selectedAdditions.push("none");
+            selectedAdditions.push("No Additions");
         }
 
         const productDetails = {flavour: flavour, size: size, additions: selectedAdditions, productPrice: productPrice, id: id }
